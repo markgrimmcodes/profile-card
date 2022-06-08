@@ -3,6 +3,7 @@
 }
 html {
   font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px;
 }
 body {
   margin: 0 auto;
@@ -38,6 +39,7 @@ img {
 }
 p {
   margin: auto;
+  color: gray;
 }
 span {
   color: gray;
@@ -57,7 +59,7 @@ h1 {
   display: flex;
   flex-flow: column;
   gap: 0.8rem;
-  padding-top: 1.5rem;
+  padding-top: 0.7rem;
 }
 .griddy {
   display: grid;
@@ -70,4 +72,9 @@ h1 {
 }
 .social {
   color: gray;
+}
+@media screen and (min-width: 762px) {
+  body {
+    max-width: 40%;
+  }
 }
